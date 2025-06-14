@@ -12,7 +12,7 @@ formato = int(input("Elige el formato (300 gr. ó 500 gr.): "))
 nombre, tiempo, recomendacion = Te.tiempo_preparacion(sabor)
 
 precio = Te.precio(formato)
-print(precio)
+
 print(f"""
     a. Sabor del tipo de té {nombre}
     b. Formato {formato}

@@ -11,8 +11,8 @@ class Te:
     }
 
     precios = {
-        300, 3000,
-        500, 5000
+        300: 3000,
+        500: 5000,
     }
 
     @staticmethod
